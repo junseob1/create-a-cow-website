@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Heart, Leaf, MapPin, Award, Milk, Users } from "lucide-react";
+import { Chatbot } from "@/components/Chatbot";
 
 const Index = () => {
   const breeds = [
@@ -76,6 +77,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
+      <Chatbot />
       {/* Hero Section */}
       <section 
         className="relative h-[600px] flex items-center justify-center overflow-hidden"

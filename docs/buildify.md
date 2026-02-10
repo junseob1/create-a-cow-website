@@ -16,3 +16,4 @@
 - [x] Add cow breeds information section
 - [x] Add interesting cow facts section
 - [x] Add image gallery
+- [x] Add AI chatbot for cow questions
